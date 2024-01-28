@@ -9,8 +9,4 @@ public class MainMenu : MonoBehaviour
     public void PlayGame(){
         SceneManager.LoadScene("MiniGame");
     }
-
-    public void QuitGame(){
-        Application.Quit();
-    }
 }
